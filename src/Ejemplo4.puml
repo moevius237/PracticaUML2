@@ -1,0 +1,9 @@
+@startuml
+:Agente:
+usecase (Enviar solicitud de credito)
+usecase (Enviar solicitud de credito personal)
+usecase (Enviar solicitud de credito empresarial)
+:Agente: --> (Enviar solicitud de credito)
+(Enviar solicitud de credito) <-- (Enviar solicitud de credito empresarial)
+(Enviar solicitud de credito) <-- (Enviar solicitud de credito personal)
+@enduml
