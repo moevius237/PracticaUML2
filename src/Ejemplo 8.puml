@@ -12,4 +12,11 @@ usecase (Pago con tarjeta)
 :Empleado: -- (Introducir pedido)
 :Empleado: -- (Obtener Estado Pedido)
 :Empleado: -- (Cancelar Pedido)
+:Empleado: -- (Buscar pedido)
+(Alta cliente) ..> (Introducir pedido):extiende
+(Introducir pedido) ..> (Buscar Cliente):incluye
+(Pago con tarjeta) ..>(Introducir pedido):extiende
+(Pago en cuenta)..> (Introducir pedido):extiende
+(Obtener Estado Pedido)..>(Buscar pedido):incluye
+(Cancelar Pedido)..>(Buscar pedido):incluye
 @enduml
