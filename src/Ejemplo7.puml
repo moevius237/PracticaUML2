@@ -1,0 +1,24 @@
+@startuml
+:Empleado:
+:Administrador:
+rectangle EmpresaPedidos{
+usecase (Introducir Pedido)
+usecase (Cancelar pedido)
+usecase (OBtener Estado perdido)
+usecase (Borrar pedido)
+usecase (Buscar Pedidos)
+usecase (Alta cliente)
+usecase (Buscar Cliente)
+usecase (Nuevo Producto)
+usecase (Borrar producto)
+}
+:Empleado: -- (Introducir Pedido)
+:Empleado: -- (Cancelar pedido)
+:Empleado: -- (OBtener Estado perdido)
+:Empleado: -- (Borrar pedido)
+:Empleado: -- (Buscar Pedidos)
+:Empleado: -- (Alta cliente)
+:Empleado: -- (Buscar Cliente)
+:Administrador: -- (Nuevo Producto)
+:Administrador: -- (Borrar producto)
+@enduml
