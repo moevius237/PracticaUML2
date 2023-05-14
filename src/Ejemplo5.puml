@@ -1,0 +1,7 @@
+@startuml
+:Cliente Bancario:
+:Cliente Coporativo:
+:Cliente Normal:
+:Cliente Bancario: <-- :Cliente Coporativo:
+:Cliente Bancario: <-- :Cliente Normal:
+@enduml
