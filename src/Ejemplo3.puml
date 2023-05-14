@@ -1,0 +1,7 @@
+@startuml
+:Agente:
+usecase (Evaluar Solicitud de credito)
+usecase (Solicitar indormacion adicional al cliente)
+:Agente: --> (Evaluar Solicitud de credito)
+(Evaluar Solicitud de credito) <.. (Solicitar indormacion adicional al cliente):<<Extend>>
+@enduml
