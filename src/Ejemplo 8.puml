@@ -1,0 +1,15 @@
+@startuml
+:Empleado:
+usecase (Alta cliente)
+usecase (Introducir pedido)
+usecase (Obtener Estado Pedido)
+usecase (Cancelar Pedido)
+usecase (Buscar Cliente)
+usecase (Pago en cuenta)
+usecase (Buscar pedido)
+usecase (Pago con tarjeta)
+:Empleado: -- (Alta cliente)
+:Empleado: -- (Introducir pedido)
+:Empleado: -- (Obtener Estado Pedido)
+:Empleado: -- (Cancelar Pedido)
+@enduml
