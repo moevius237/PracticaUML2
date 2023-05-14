@@ -1,0 +1,8 @@
+@startuml
+:Empleado:
+:Administrador:
+rectangle EmpresaPedidos{
+}
+:Empleado: -- EmpresaPedidos
+:Administrador: -- EmpresaPedidos
+@enduml
